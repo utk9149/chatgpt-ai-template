@@ -39,7 +39,7 @@ const routes: IRoute[] = [
   },
   // --- Others ---
   {
-    name: 'Other Pages',
+    name: 'Student query facilities',
     disabled: true,
     path: '/others',
     icon: <Icon as={MdFileCopy} width="20px" height="20px" color="inherit" />,
@@ -62,9 +62,9 @@ const routes: IRoute[] = [
       },
     ],
   },
-  // --- Admin Pages ---
+  // --- Admin query facilities ---
   {
-    name: 'Admin Pages',
+    name: 'Admin query facilities',
     disabled: true,
     path: '/admin',
     icon: <Icon as={MdLock} width="20px" height="20px" color="inherit" />,

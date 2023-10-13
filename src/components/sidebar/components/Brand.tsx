@@ -11,6 +11,10 @@ export function SidebarBrand() {
 
   return (
     <Flex alignItems="center" flexDirection="column">
+      <h1 style={{ fontWeight: '800', fontSize: '1.5rem' }}>
+        UNI Support | BOT
+      </h1>
+      <p>Powered By</p>
       <HorizonLogo h="26px" w="146px" my="30px" color={logoColor} />
       <HSeparator mb="20px" w="284px" />
     </Flex>
